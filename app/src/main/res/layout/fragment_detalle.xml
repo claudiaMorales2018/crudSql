@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_dark">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Mascota:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:id="@+id/idFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Mascota:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        />
+    <TextView
+        android:id="@+id/nombreFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raza Mascota:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        />
+    <TextView
+        android:id="@+id/RazaFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Mascota:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        />
+    <TextView
+        android:id="@+id/colorFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad De Mascota:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        />
+    <TextView
+        android:id="@+id/edadFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-----"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15sp"
+        />
+    </LinearLayout>
+
+
+
+    </FrameLayout>
